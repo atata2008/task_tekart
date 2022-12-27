@@ -1,0 +1,153 @@
+ body {
+     color: rgb(59, 48, 48);
+     margin: 0;
+     font-size: 12px;
+     font-family: Arial, sans-serif;
+     background-color: #edefeb;
+     letter-spacing: 0.1em;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ .container {
+     background-color: #fefffc;
+     max-width: 1000px;
+     min-height: 630px;
+     margin: 1% auto 0 auto;
+     padding: 10px;
+     border: 1px solid;
+     border-color: #caccc9;
+ }
+
+ .news {
+     width: auto;
+     height: 100%;
+     padding-left: 5px;
+     padding-right: 5px;
+
+ }
+
+ .header {
+     width: 100%;
+     min-height: auto;
+     margin-bottom: 10px;
+ }
+
+ .header_title {
+     font-size: 16px;
+ }
+
+
+ .line {
+     width: 99%;
+     margin: 10px auto;
+     height: 5px;
+ }
+
+ .line_dashed {
+     border: 1px dashed;
+     border-color: #832b5b;
+ }
+
+ .main {
+     min-height: 440px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+
+ }
+
+ .news_piece {
+     width: 100%;
+     height: auto;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+ }
+
+ .news_piece-data {
+     background-color: #832b5b;
+     width: 80px;
+     height: 20px;
+     color: #fefffc;
+     text-align: center;
+     padding-top: 3px;
+ }
+
+ .news_piece-title {
+     padding-left: 5px;
+ }
+
+ .news_piece-link {
+     font-size: 14px;
+     font-weight: bold;
+ }
+
+ .news_announce {
+     padding-top: 3px;
+     line-height: 1.3;
+
+ }
+
+ .main_text {
+     height: auto;
+     width: auto;
+ }
+
+ .footer {
+     width: 100%;
+     min-height: 140px;
+ }
+
+ .footer_title-name {
+     font-size: 15px;
+     font-weight: bold;
+     margin: 0;
+     padding-bottom: 5px;
+ }
+
+ .footer_news-pages {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+ }
+
+ .news_pages__number {
+     height: 16px;
+     width: 32px;
+     border: 1px solid;
+     border-color: #caccc9;
+     text-align: center;
+     background-color: #edefeb;
+     margin: 2px;
+ }
+
+ .news_pages__number:hover {
+     background: #832b5b;
+     color: #fefffc;
+ }
+
+ .fio {
+     text-align: center;
+     font-size: 6px;
+     padding-top: 5px;
+ }
+
+ /* настройки для one-news*/
+
+ .for_main {
+     min-height: 310px;
+ }
+
+ .for_footer {
+     width: 100%;
+     height: 60px;
+     font-size: 15px;
+ }
